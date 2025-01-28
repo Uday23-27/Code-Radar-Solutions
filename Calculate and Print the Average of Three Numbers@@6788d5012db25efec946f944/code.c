@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main () {
-    float num1 ;
-    float num2 ;
-    float num3 ;
+    int num1 ;
+    int num2 ;
+    int num3 ;
     scanf("%d", &num1);
     scanf("%d", &num2);
     scanf("%d", &num3);
