@@ -3,7 +3,7 @@
 int main() {
     char name[];
     int age ;
-    char hobby ;
+    char hobby[] ;
     scanf("%s", name);
     scanf("%d", age);
     scanf("%s", hobby);
@@ -11,5 +11,5 @@ int main() {
     printf("Age: %s\n", Age);
     printf("Hobby: %s\n", Hobby);
     return 0;
-    
+
 }
