@@ -9,6 +9,6 @@ int main () {
 
     float Product = num1 * num2;
 
-    printf("Product: %f", Product);
+    printf("Product: %.2f", Product);
     return 0;
 }
