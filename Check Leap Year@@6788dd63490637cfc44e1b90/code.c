@@ -8,7 +8,7 @@ int main(){
     if (Year % 4 == 0 && Year % 400 == 0){
         printf("Leap Year");
     }
-    else if(Year %100 != 0 && Year %400 ==0) {
+    else if(Year %100 != 0 || Year %400 ==0) {
         printf("Leap Year");
     }
     else{
