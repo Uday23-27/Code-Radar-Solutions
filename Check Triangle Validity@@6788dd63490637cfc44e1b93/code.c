@@ -19,12 +19,12 @@ int main(){
             printf("Valid");
         }
     }
-    if (Power2 > Power1 && Power2 > Power3){
+    else if (Power2 > Power1 && Power2 > Power3){
         if (Power2 = Power1 + Power3){
             printf("Valid");
         }
     }
-    if (Power3 > Power2 && Power3 > Power1){
+    else if (Power3 > Power2 && Power3 > Power1){
         if (Power3 = Power2 + Power1){
             printf("Valid");
         }
