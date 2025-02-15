@@ -14,19 +14,12 @@ int main(){
     int Power2 = pow(Side2, 2);
     int Power3 = pow(Side3, 2);
 
-    if (Power1 > Power2 && Power1 > Power3){
-        if (Power1 = Power2 + Power3){
+    if ((Power1 > Power2 && Power1 > Power3) || (Power2 > Power1 && Power2 > Power3) || (Power3 > Power1 && Power3 > Power2)){
+        if((Power1 == Power2 + Power3) || (Power2 == Power1 + Power3) || (Power3 == Power1 + Power2)){
             printf("Valid");
         }
-    }
-    else if (Power2 > Power1 && Power2 > Power3){
-        if (Power2 = Power1 + Power3){
-            printf("Valid");
+        else {
+            printf("Invalid");
         }
-    }
-    else if (Power3 > Power2 && Power3 > Power1){
-        if (Power3 = Power2 + Power1){
-            printf("Valid");
-        }
-    }
+    } 
 }
