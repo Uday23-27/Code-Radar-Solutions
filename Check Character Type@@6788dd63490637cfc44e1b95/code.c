@@ -9,7 +9,7 @@ int main(){
         printf("Vowel");
     }
     else if (isalpha(ch)){
-        printf("Consotant");
+        printf("Consonant");
     }
     else if (isdigit(ch)){
         printf("Digit");
