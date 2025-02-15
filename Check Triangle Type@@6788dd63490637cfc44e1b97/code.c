@@ -10,8 +10,8 @@ int main() {
     scanf("%d", &Side2);
     scanf("%d", &Side3);
 
-    if (Side1 == Side2 && Side1 == Side3){
-        printf("Equilatral");
+    if (Side1 == Side2 == Side3){
+        printf("Equilateral");
     }
     else if (Side1 != Side2 != Side3){
         printf("Scalene");
