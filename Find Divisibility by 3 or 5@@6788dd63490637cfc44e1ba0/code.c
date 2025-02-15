@@ -6,13 +6,13 @@ int main(){
     scanf("%d", &Num);
 
     if ((Num % 3 == 0) && (Num % 5 == 0)){
-        printf("Divisible by 3");
+        printf("Divisible by Both");
     }
     else if (Num % 5 == 0){
         printf("Divisible by 5");
     }
     else if (Num % 3 == 0){
-        printf("Divisible by  Both");
+        printf("Divisible by  3");
     }
     else {
         printf("Not Divisible");
