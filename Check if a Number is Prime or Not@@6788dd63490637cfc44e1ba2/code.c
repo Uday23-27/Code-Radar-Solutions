@@ -5,7 +5,7 @@ int main(){
     int Num;
     scanf("%d", &Num);
 
-    if (Num % 4 == 0 || Num % 3 == 0){
+    if (Num % 4 == 0){
         printf("Not Prime");
     }
     else{
