@@ -10,23 +10,23 @@ int main(){
     scanf("%d", &Num2);
     scanf("%c", &Sign);
 
-    int Add = Num1 + Num2;
-    int Sub = Num1 - Num2;
-    int Multi = Num1 * Num2;
-    int Divi = Num1 / Num2;
+    // int Add = Num1 + Num2;
+    // int Sub = Num1 - Num2;
+    // int Multi = Num1 * Num2;
+    // int Divi = Num1 / Num2;
 
     if (Sign == '+'){
-        printf("%d", Add);
+        printf("%d", Num1 + Num2);
     }
     else if (Sign == '-'){
-        printf("%d", Sub);
+        printf("%d", Num1 - Num2);
     }
     else if (Sign == '*'){
-        printf("%d", Multi);
+        printf("%d", Num1 * Num2);
     }
     else if (Sign == '/'){
         if (Num2 != 0){
-            printf("%d", Divi);
+            printf("%d", Num1 / Num2);
         }
         else{
             printf("error");
