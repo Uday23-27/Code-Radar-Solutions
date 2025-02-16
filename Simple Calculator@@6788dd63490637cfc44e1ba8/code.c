@@ -15,16 +15,16 @@ int main(){
     int Multi = Num1 * Num2;
     int Divi = Num1 / Num2;
 
-    if (ch == '+'){
+    if (sign == '+'){
         printf("%d", Add);
     }
-    else if (ch == '-'){
+    else if (sign == '-'){
         printf("%d", Sub);
     }
-    else if (ch == '*'){
+    else if (sign == '*'){
         printf("%d", Multi);
     }
-    else if (ch == '/'){
+    else if (sign == '/'){
         if (Num2 != 0){
             printf("%d", Divi);
         }
