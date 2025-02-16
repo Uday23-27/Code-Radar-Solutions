@@ -6,11 +6,11 @@ int main(){
     scanf(" %c", &Colour);
 
     switch(Colour){
-        case "R" : printf("Stop");
+        case 'R' : printf("Stop");
                 break;
-        case "Y" : printf("Slow Down");
+        case 'Y' : printf("Slow Down");
                 break;
-        case "G" : printf("Go");
+        case 'G' : printf("Go");
                 break;
         default : printf("Invalid input");
                 break;
