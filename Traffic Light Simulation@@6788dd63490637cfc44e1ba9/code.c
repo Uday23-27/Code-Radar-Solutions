@@ -3,7 +3,7 @@
 
 int main(){
     char Colour;
-    scanf("%c", &Colour);
+    scanf(" %c", &Colour);
 
     switch(Colour){
         case "R" : printf("Stop");
@@ -13,5 +13,6 @@ int main(){
         case "G" : printf("Go");
                 break;
         default : printf("Invalid input");
+                break;
     }
 }
