@@ -24,7 +24,7 @@ int main(){
     else if (ch == '*'){
         printf("%d",Multi);
     }
-    else if ('/'){
+    else if (ch == '/'){
         printf("%d",Divi);
     }
 }
