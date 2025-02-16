@@ -16,15 +16,15 @@ int main(){
     int Divi = Num1 / Num2;
 
     if (ch == '+'){
-        printf(Add);
+        printf("%d",Add);
     }
     else if (ch == '-'){
-        printf(Sub);
+        printf("%d",Sub);
     }
     else if (ch == '*'){
-        printf(Multi);
+        printf("%d",Multi);
     }
     else if ('/'){
-        printf(Divi);
+        printf("%d",Divi);
     }
 }
