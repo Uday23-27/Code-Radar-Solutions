@@ -4,27 +4,27 @@
 int main(){
     int Num1;
     int Num2;
-    char sign;
+    char Sign;
 
     scanf("%d", &Num1);
     scanf("%d", &Num2);
-    scanf("%c", &sign);
+    scanf("%c", &Sign);
 
     int Add = Num1 + Num2;
     int Sub = Num1 - Num2;
     int Multi = Num1 * Num2;
     int Divi = Num1 / Num2;
 
-    if (sign == '+'){
+    if (Sign == '+'){
         printf("%d", Add);
     }
-    else if (sign == '-'){
+    else if (Sign == '-'){
         printf("%d", Sub);
     }
-    else if (sign == '*'){
+    else if (Sign == '*'){
         printf("%d", Multi);
     }
-    else if (sign == '/'){
+    else if (Sign == '/'){
         if (Num2 != 0){
             printf("%d", Divi);
         }
