@@ -10,21 +10,16 @@ int main(){
     scanf("%d", &Num2);
     scanf("%c", &ch);
 
-    int Add = Num1 + Num2;
-    int Sub = Num1 - Num2;
-    int Multi = Num1 * Num2;
-    int Divi = Num1 / Num2;
-
     if (ch == '+'){
-        printf("%d",Add);
+        printf("%d",Num1 + Num2);
     }
     else if (ch == '-'){
-        printf("%d",Sub);
+        printf("%d",Num1 - Num2);
     }
     else if (ch == '*'){
-        printf("%d",Multi);
+        printf("%d",Num1 * Num2);
     }
     else if (ch == '/'){
-        printf("%d",Divi);
+        printf("%d",Num1 / Num2);
     }
 }
