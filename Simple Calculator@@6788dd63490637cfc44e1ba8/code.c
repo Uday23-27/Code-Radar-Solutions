@@ -8,7 +8,7 @@ int main(){
 
     scanf("%d", &Num1);
     scanf("%d", &Num2);
-    scanf(" %c", &Sign);
+    scanf("%c", &Sign);
 
     // int Add = Num1 + Num2;
     // int Sub = Num1 - Num2;
