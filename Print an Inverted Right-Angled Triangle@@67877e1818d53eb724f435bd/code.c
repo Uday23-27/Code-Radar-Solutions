@@ -10,6 +10,6 @@ int main(){
         for(int j = 1; j <= Rows - i + 1; j++){
             printf("%c", '*');
         }
-        print("\n");
+        printf("\n");
     }
 }
