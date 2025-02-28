@@ -7,7 +7,7 @@ int main(){
     scanf("%d", &Rows);
 
     for(int i = 1; i <= Rows; i++){
-        for(int j = 1; j <= Rows + 1 ; j++){
+        for(int j = 1; j <= Rows  ; j++){
             printf("%c ", '*');
         }
         printf("\n");
