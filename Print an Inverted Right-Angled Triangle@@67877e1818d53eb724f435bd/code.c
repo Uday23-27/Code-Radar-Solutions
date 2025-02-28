@@ -8,7 +8,7 @@ int main(){
 
     for(int i = 1; i <= Rows; i++){
         for(int j = 1; j <= Rows - i + 1; j++){
-            printf("%c", '*');
+            printf("%c ", '*');
         }
         printf("\n");
     }
