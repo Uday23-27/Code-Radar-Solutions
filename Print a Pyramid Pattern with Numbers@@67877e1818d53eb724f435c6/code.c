@@ -9,7 +9,7 @@ int main(){
     for(int i = 1; i <= Rows; i++){
 
         //Print the Spacing
-        for(int k = Rows; K > i; k--){
+        for(int k = Rows; k > i; k--){
             printf(" ");
         }
 
