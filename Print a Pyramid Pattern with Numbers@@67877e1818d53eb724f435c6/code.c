@@ -15,7 +15,7 @@ int main(){
 
         int Num = 1;
         //Print the Numbers
-        for(int j = 1; j <= 2 * i - 1; j++){
+        for(int j = 1; j <= 2 * i - 2; j++){
             printf("%d ", Num);
             Num++;
         }
