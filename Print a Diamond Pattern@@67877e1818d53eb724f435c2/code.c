@@ -31,7 +31,7 @@ int main(){
         }
 
         //Print the stars
-        for(int m = 1; m <= 2 * l - 1; m--){
+        for(int m = 1; m <= 2 * l - 1; m++){
             printf("*");
         }
     }
