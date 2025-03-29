@@ -19,5 +19,7 @@ int main(){
             printf("%d ", Num);
             Num++;
         }
+
+        printf("\n");
     }
 }
