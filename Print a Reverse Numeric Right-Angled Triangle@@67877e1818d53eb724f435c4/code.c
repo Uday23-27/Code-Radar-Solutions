@@ -10,6 +10,7 @@ int main(){
         int k = 1;
         for(int j = 1; j <= Rows - i + 1; j++){
             printf("%d ", k);
+            k++;
         }
         printf("\n");
     }
