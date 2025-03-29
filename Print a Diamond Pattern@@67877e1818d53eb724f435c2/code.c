@@ -34,5 +34,7 @@ int main(){
         for(int m = 1; m <= 2 * l - 1; m++){
             printf("*");
         }
+
+        printf("\n");
     }
 }
