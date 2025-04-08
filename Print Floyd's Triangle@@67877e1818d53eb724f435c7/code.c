@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 int main(){
-    int Num;
-    scanf("%d", &Num);
+    int Rows;
+    scanf("%d", &Rows);
 
     int k = 1;
     for(int i = 1; i <= Rows; i++){
