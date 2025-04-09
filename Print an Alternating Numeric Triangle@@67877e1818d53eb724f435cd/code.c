@@ -26,7 +26,7 @@
 
 int main(){
     int Rows;
-    printf("Enter Rows: ");
+    
     scanf("%d", &Rows);
 
     for(int i = 1; i <= Rows; i++){
