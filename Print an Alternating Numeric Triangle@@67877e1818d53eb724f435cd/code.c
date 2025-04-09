@@ -10,7 +10,7 @@ int main(){
         for(int j = 1; j <= Rows - i + 1; j++){
 
             if((i + j) % 2 == 0){
-                printf("1 ");
+                printf("1\n");
             }
             else{
                 printf(" 0");
